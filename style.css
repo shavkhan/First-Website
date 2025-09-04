@@ -23,7 +23,7 @@ body{
 }
 
 header{
-    margin-top: 20px;
+    /* margin-top: 20px; */
     width: 95%;
     position: absolute;
     top: 0;
@@ -99,6 +99,18 @@ header ul a{
     transition: all 0.3s ease;
 }
 
+.blackhole-box{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    justify-content: center;
+    mix-blend-mode: screen;
+}
+
+.blackhole-box video{
+    width: 100%;
+    margin-top: -24.7%;
+}
 
 
 
