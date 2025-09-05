@@ -113,6 +113,117 @@ header ul a{
     margin-top: -24.7%;
 }
 
+.hero{
+    position: relative;
+    width: 100%;
+    display:flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-info{
+    position: absolute;
+    left:5%;
+
+}
+
+.hero-info .hero-info-title{
+    color: #727fdefd;
+    padding: 8px 5px;
+    border: 1px solid #727fde80;
+    width: 180px;
+    background-color: #2200493d;
+    box-shadow: 0 0 5px #727fde80;
+    border-radius: 50px;
+}
+
+.hero-info h1{
+    font-size: 60px;
+    max-width: 600px;
+    font-weight: 700;
+    line-height: 70px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.hero-info p{
+    font-size: 20px;
+    max-width: 550px;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+.hero-info button{
+    padding: 15px 35px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    background-color: #2200493d;
+    border: 1px solid #727fde80;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #727fde80;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.hero-info button:hover{
+    box-shadow: 0 0 15px #727fde80;
+}
+
+/* Gradient Animation */
+.gradient{
+    background: linear-gradient(to right, #ff0080,#72008f, #7928ca, #ff0080);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-gradient 2.5s linear infinite;
+}
+
+@keyframes animate-gradient{
+    to{
+        background-position: 200%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
